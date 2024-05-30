@@ -34,7 +34,7 @@ const Hero = () => {
       >
         {/* Radial gradient for the container to give a faded look */}
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
+          // change the bg to bg-black-100, so it matches the bg color and will blend in
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
            bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -60,9 +60,9 @@ const Hero = () => {
             Hi! I&apos;m Ankit, a Blockchain Developer based in India.
           </p>
 
-          <a href="#about">
+          <a href="https://web3-app-ui.vercel.app/" target="_blank">
             <MagicButton
-              title="Show my work"
+              title="Sample Web3 work"
               icon={<FaLocationArrow />}
               position="right"
             />
